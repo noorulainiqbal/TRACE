@@ -29,7 +29,7 @@ jobs:
       # because GitHub's commit API was rate-limited while setting this up.
       # Follow-up: resolve and pin their SHAs the same way checkout/setup-uv/
       # upload-artifact are pinned in ci.yml and security.yml.
-      - uses: actions/configure-pages@v5
+      - uses: actions/configure-pages@v6
       - uses: actions/upload-pages-artifact@v3
         with:
           path: docs/site
