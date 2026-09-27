@@ -30,7 +30,7 @@ jobs:
       # Follow-up: resolve and pin their SHAs the same way checkout/setup-uv/
       # upload-artifact are pinned in ci.yml and security.yml.
       - uses: actions/configure-pages@v5
-      - uses: actions/upload-pages-artifact@v3
+      - uses: actions/upload-pages-artifact@v5
         with:
           path: docs/site
       - id: deployment
